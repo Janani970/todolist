@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .dark {
+    color-scheme: dark;
+  }
+}
+
+@layer components {
+  .dark .dark\:bg-gray-900 {
+    background-color: #111827;
+  }
+  
+  .dark .dark\:text-white {
+    color: #ffffff;
+  }
+  
+  .dark .dark\:bg-gray-700 {
+    background-color: #374151;
+  }
+  
+  .dark .dark\:text-gray-300 {
+    color: #d1d5db;
+  }
+  
+  .dark .dark\:hover\:bg-gray-600:hover {
+    background-color: #4b5563;
+  }
+}
